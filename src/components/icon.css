@@ -1,0 +1,22 @@
+.option{
+    display: flex;
+    padding-left: 10px;
+    margin: -15px 10px;
+    align-items: center;
+    /* transition: 200ms color ease-in; */
+}
+.title{
+    color: rgb(156, 155, 155);
+    /* font-family: 'Sawarabi Gothic', sans-serif; */
+    padding-left: 15px;
+    /* transition: 200ms color ease-in; */
+}
+.title:hover{
+    cursor: pointer;
+    color: white;
+    transition: 200ms color ease-in;
+}
+.icon{
+    color: grey;
+    /* transition: 200ms color ease-in; */
+}

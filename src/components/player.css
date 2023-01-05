@@ -1,0 +1,16 @@
+.player{
+    display: flex;
+    height: 100vh;
+}
+.side{
+    background-color: black;
+    width: 19%;
+}
+.side img{
+    width: 155px;
+    padding: 10px;
+}
+.side hr{
+    color: transparent grey;
+    /* font-display: transparent; */
+}

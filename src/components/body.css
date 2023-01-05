@@ -1,0 +1,102 @@
+.body{
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+    background-color: rgb(91, 87, 115);
+    width: 81%;
+    overflow-y: overlay;
+}
+.body::-webkit-scrollbar {
+    display: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 5px;
+    height: 25px;
+    border-radius: 30px;
+}
+.header_left input{
+    border: 0px;
+}
+.header_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    height: 25px;
+    margin-right: 25px;
+}
+.header_right h4{
+    margin: 0px;
+}
+.header_right img{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.main img{
+    height: 200px;
+    /* margin: 30px */
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+.discover h1{
+    font-size: 85px;
+    color: white;
+    margin: 0px;
+}
+.discover h5{
+    margin: 0px;
+    font-size: small;
+    color: white;
+}
+.discover p{
+    margin: 0px;
+    /* font-size: small; */
+    color: rgb(166, 165, 165);
+}
+.play{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#green{
+    color: #1DB954;
+    font-size: 70px;
+}
+.play > .MuiSvgIcon-root{
+    /* color: green; */
+    color: rgb(166, 165, 165);
+    margin: 10px;
+    font-size: 40px;
+}
+.play > .MuiSvgIcon-root:hover{
+    transition: color , transform  200ms ease-in-out;
+    transform: scale(1.08);
+    color: white;
+}

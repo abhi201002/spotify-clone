@@ -1,0 +1,53 @@
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-between;
+    /* font-size: ; */
+    height: 80px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    width: 11%;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 10px; */
+}
+.left img{
+    height: 50px;
+    padding-left: 10px;
+}
+.left_info h5, .left_info p{
+    margin: 0px 0px;
+}
+.mid{
+    width: 20%;
+    padding-top: 15px;
+}
+.mid_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: 100000px;
+}
+.two{
+    transform: scale(2);
+}
+.one{
+    transform: scale(1.2);
+    color: grey
+}
+.two:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(2.2) !important;
+}
+.one:hover{
+    transition: transform color 0.2s ease-in-out;
+    color: white;
+    transform: scale(1.3) !important;
+}
